@@ -62,7 +62,7 @@ export const Postulaciones = ({ }) => {
                                     <th scope="col">Anuncio</th>
                                     <th scope="col">Ubicación</th>
                                     <th scope="col">Fecha de inicio</th>
-                                    <th scope="col">Estado postulacion</th>
+                                    <th scope="col">Estado postulación</th>
                                     <th scope="col"></th>
                                 </tr>
                             </thead>
