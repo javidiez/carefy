@@ -77,7 +77,7 @@ export const Postulaciones = ({ }) => {
                                         <tr key={misinscripciones.id}>
                                             <th scope="row">{index + 1}</th>
                                             <td>{anuncio.title}</td>
-                                            <td>{paciente.province}</td>
+                                            <td>{paciente.location}, {paciente.province}</td>
                                             <td>{new Date(anuncio.start_date).toLocaleDateString('es-ES', {
                                                 day: '2-digit',
                                                 month: '2-digit',
